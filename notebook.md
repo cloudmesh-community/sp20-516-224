@@ -10,3 +10,4 @@
 * Read about DataCenters.
 * created python virtual env.
 * installed multipass on windows machine. 
+* completed assigments
