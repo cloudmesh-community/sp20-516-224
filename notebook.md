@@ -1,6 +1,12 @@
 # Notebook Divyanshu Mishra SP20-516-224 
 
 ### Week 01/18/2020 - 01/24/2020
+
+* Read Cloud Architecture chapter
+* updated datacenter.md file with exercise details.
+
+### Week 01/18/2020 - 01/24/2020
+
 * Read about DataCenters.
 * created python virtual env.
 * installed multipass on windows machine. 
