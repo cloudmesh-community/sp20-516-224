@@ -1,6 +1,8 @@
-# Sabey Data Center in Quincy, WA
+# Datacenter Divyanshu Mishra SP20-516-224 
 
-## E.Data Center.2.b
+## E.Datacenter.2.b
+
+Sabey Data Center in Quincy, WA:
 
 * Sabey Quincy Data Center uses 50-60 MW of aggregate power.
 * Electricity is supplied 100% by sustainable hydro and wind power 
