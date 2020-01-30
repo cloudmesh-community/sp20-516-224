@@ -21,7 +21,11 @@ class Provider:
 
     def start(self):
         banner("start")
-        os.system("multipass start {self.name}")
+        os.system(f"multipass start {self.name}")
+
+    def stop(self):
+        banner("stop")
+        os.system(f"multipass stop {self.name}")
 
     def list(self):
         banner("list")
@@ -41,11 +45,26 @@ class Provider:
         # improve next line
         os.system(f"multipass exec {self.name} -- {command}")
 
+    def delete(self):
+        banner("delete")
+        os.system(f"multipass delete {self.name} ")
+
+    def delete_all(self):
+        banner("delete all")
+        os.system("multipass delete --all")
+
+    def purge(self):
+        banner("purge")
+        os.system(f"multipass purge ")
 
 if __name__ == "__main__":
-    p = Provider("cloudmesh")
+     p = Provider("cloudmesh")
     #p.launch()
+    #p.list()
+    #p.stop()
+    #p.start()
     #p.shell()
     #p.find()
-    p.run("uname -r")
-    p.list()
+    #p.run("uname -r")
+    #p.delete()
+    #p.purge()
