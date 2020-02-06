@@ -36,7 +36,7 @@ My carbon foot print is updated in this [link] {https://docs.google.com/spreadsh
 
 Energy recycling is the recovery of energy that would normally be wasted in industrial 
 processes by flaring, exhausting to the atmosphere or operating low efficiency equipment, 
-and converting it into electricity or thermal energy (steam or heated water)[@recycleEnergy].
+and converting it into electricity or thermal energy (steam or heated water)[@recycleEnergy-sp20-516-224].
 
 ### Forms of Energy Recycling
 
