@@ -15,4 +15,5 @@ dot = dotdict(flat)
 
 print(flat)
 print(flat['name.first'])
+print(flat['cls.id'])
 #print(dot.cls.id)
