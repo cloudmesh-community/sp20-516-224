@@ -1,5 +1,4 @@
 # cloudmesh-1.py Divyanshu Mishra SP20-516-224
-# a test line
 # Develop a program that demonstrates the use of banner, HEADING, and VERBOSE.
 
 from cloudmesh.common.util import banner
