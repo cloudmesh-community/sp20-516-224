@@ -30,7 +30,7 @@ Source: <https://sabeydatacenters.com/data-center-locations/central-washington-d
 
 ## E.Datacenter.3:
 
-My carbon foot print is updated in this [link] {https://docs.google.com/spreadsheets/d/1gh869zfjA4sVxL8-ga0af2_HLTTuOoD1IReuRSrbq4I/edit?usp=sharing}.
+My carbon foot print is updated in this [link] (https://docs.google.com/spreadsheets/d/1gh869zfjA4sVxL8-ga0af2_HLTTuOoD1IReuRSrbq4I/edit?usp=sharing).
 
 ## E.Datacenter.4:
 
@@ -66,7 +66,7 @@ up in trash. This is not a sustainable model and it creates excessive waste.
 
 ### Circular Economy Practice At Google
 
-A circular economy model is restorative and regenerative as shown in @fig:Google Circular Economy. 
+A circular economy model is restorative and regenerative as shown in @fig:Google-Circular-Economy. 
 In such model, products are created to be easily refurbished, repaired, reused and recycled.
 
 It is based in three principles.
@@ -76,7 +76,7 @@ It is based in three principles.
   at the highest utility at all times.
 * Principle 3: Foster system effectiveness by revealing and designing out negative externalities.  
 
-![Google Circular Economy](images/Google_Circular_Economy.png){#fig:Google Circular Economy} 
+![Google Circular Economy](images/Google_Circular_Economy.png){#fig:Google-Circular-Economy} 
 
 #### Programs Under Circular Economy
 
