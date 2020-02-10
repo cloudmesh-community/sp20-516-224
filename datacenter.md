@@ -50,7 +50,7 @@ and converting it into electricity or thermal energy (steam or heated water)[@re
     * The concurrent production of electricity or mechanical power and useful thermal energy 
       (heating and/or cooling) from a single source of energy.
 
-References
+References:
 
 * <https://www.primaryenergy.com/energy-recycling/>
 * <https://www.energy.gov/eere/amo/articles/waste-heat-recovery-resource-page>
@@ -82,7 +82,7 @@ It is based in three principles.
 
 * Maintain/Prolong
     * Focus at repair process to enable longer life expectancy of servers.
-* Refurbish/Remanufacture
+* Refurbish/Re-manufacture
     * Dismantling of reusable component of decommissioned servers so that these components can be
       reused.
 * Reuse/Redistribute
@@ -90,11 +90,11 @@ It is based in three principles.
 * Recycle
     * Maximizes the recycling of all data center material, including the electronic equipments. 
 
-In 2015, 19% of servers Google deployed were remanufactured machines. 
+In 2015, 19% of servers Google deployed were re-manufactured machines. 
 
 In 2016, 22% of the components Google used for machine upgrades were refurbished inventory.
 
-In 2016, 36% of servers Google deployed were remanufactured machines. Server upgrades and repairs also 
+In 2016, 36% of servers Google deployed were re-manufactured machines. Server upgrades and repairs also 
 tap the refurbished inventory pool.
 
 In 2017, over 2.1 million units were resold by Google and productively reused by other organizations 
@@ -102,7 +102,7 @@ around the world.
 
 In 2016, six of Google’s 14 data centers reaching 100% landfill diversion rate.
 
-References
+References:
 
 * <https://sustainability.google/projects/circular-economy/>
 * <https://storage.googleapis.com/gweb-sustainability.appspot.com/pdf/data-center-case-study.pdf>
@@ -117,7 +117,7 @@ to recover from damage and get back to usual business.
 
 ![Microsoft Outage](images/microsoft_outage.png){#fig:microsoft_outage}  
 
-References
+References:
 
 * <https://devblogs.microsoft.com/devopsservice/?p=17485>
 * <https://www.zdnet.com/article/microsoft-south-central-u-s-datacenter-outage-takes-down-a-number-of-cloud-services/>
