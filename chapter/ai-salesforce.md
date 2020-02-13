@@ -4,8 +4,30 @@ make sure you comment on cost. DO they have any free services?
 
 ## Einstein AI Overview
 
+Salesforce offers AI services platform which can help organizations build AI 
+powered apps quickly for employees and customers.  
 
+Products are grouped under four basic AI Domains.
 
+* **Machine Learning**: Products provided under this category are -
+    
+    * Einstein Discovery
+    * Einstein Prediction Builder
+    * Einstein Next Best Action
+
+* **Natural Language Processing**: Products provided under this category are -
+
+    * Einstein Language
+    * Einstein Bots    
+
+* **Computer Vision**: Products provided under this category are -
+
+    * Einstein Vision
+    
+* **Automatic Speech Recognition**: Products provided under this category are -
+
+    * Einstein Voice(open beta)
+    
 ## Einstein AI Services
 
 Services provided by Einstein AI
@@ -63,9 +85,48 @@ Services provided by Einstein AI
     into your apps to classify the underlying intent and sentiment in a body of
     text. Einstein Language consists of Einstein Sentiment and Einstein Intent.
     Together, these APIs harness and make sense out of unstructured data from 
-    text to help better understand your customers.      
+    text to help better understand your customers.
+    
+    * Einstein Intent: The Einstein Intent API categorizes unstructured text 
+    into user-defined labels to better understand what users are trying to 
+    accomplish.
+    * Einstein Sentiment: The Einstein Sentiment API classifies text into 
+    positive, negative, and neutral classes to understand what the words people 
+    use can tell us about how they’re feeling.      
 
 ## Costs (Any free services??)
 
 
 ## How To Use Einstein Language 
+
+
+### Setting Up Environment
+
+#### Download Key
+
+An account needs to be created at this [link] (https://api.einstein.ai/signup) 
+to access Einstein Platform Services APIs. Once account is created, a private 
+key is required to download. The key file is named einstein_platform.pem
+
+#### Generate a Token  
+
+To generate token, navigate to [link] (https://api.einstein.ai/token) and 
+provide account id or mail id along with private key.Browse and navigate 
+to the einstein_platform.pem file downloaded during account signup. Click 
+Get Token, and save the token in a text file or somewhere you can access it.
+
+#### Create Dataset
+
+The Einstein Language APIs support data in these file formats:
+
+* .csv (comma-separated values)
+* .tsv (tab-separated values)
+* .json
+
+The data in the .csv file takes this format: "intent string",label. Examples
+are:
+
+Intent String                                       Label
+"need to reset my password",                        Password Help
+"when will my order arrive?",                       Shipping Info
+"can I buy another pair, these are great?",         Sales Opportunity
