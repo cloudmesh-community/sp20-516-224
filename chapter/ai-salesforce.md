@@ -513,7 +513,32 @@ the data associated with each label. In the response, the label value Sales
 Opportunity has a probability value of 0.9540156. In this case, the model is 
 95% sure the request is a sales opportunity.                              
 
+### Cost
+
+#### Einstein Analytics Pricing
+
+There are 3 products available under Einstein Analytics[@sp20-516-224-cost-analytics].
+
+* **Einstein Predictions** - Cost $75 /user/month.
+* **Einstein Analytics Growth** - Cost $125 /user/month.
+* **Einstein Analytics Plus** - Cost $150 /user/month.
+
+Comparison of these 3 products and their top features is provided in @fig:cost-compare-analytics.
+
+![Compare Edition and Top Feature](images/cost-compare-analytics.png){#fig:cost-compare-analytics}
+
+#### Einstein Vision and Language through Heroku
+
+Plans & Pricing[@sp20-516-224-cost-heroku]:
+
+* **Starter** - Free. 1000/month Prediction API calls.
+* **Bronze** - $40/month. 10000/month Prediction API calls.
+* **Silver** - $850/month. 250,000/month Prediction API calls.
+* **Gold** - $3400/month. 1,000,000/month Prediction API calls.
+
 References:
 
 * <https://trailhead.salesforce.com/content/learn/modules/einstein_intent_basics>
 * <https://metamind.readme.io/docs/prediction-intent> 
+* <https://www.salesforce.com/products/einstein-analytics/pricing/>
+* <https://elements.heroku.com/addons/einstein-vision>
