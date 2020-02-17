@@ -1,7 +1,5 @@
 # AI Services at Salesforce sp20-516-224, Mishra, Divyanshu
 
-make sure you comment on cost. DO they have any free services?
-
 ## Einstein AI Overview
 
 Salesforce offers AI services platform which can help organizations build AI 
@@ -94,10 +92,9 @@ Services provided by Einstein AI
     positive, negative, and neutral classes to understand what the words people 
     use can tell us about how they’re feeling.      
 
-## Costs (Any free services??)
-
-
 ## How To Use Einstein Language 
+
+These steps explain how to use Einstein Language API.
 
 ### Setting Up Environment
 
@@ -169,8 +166,8 @@ Table: Create Dataset Request Body [@sp20-516-224-create-dataset-response]
                                                 The maximum file size you can upload 
                                                 from a web location is 25 MB.
     type                string                  Type of dataset data. Valid values are:
-                                                    text-intent
-                                                    text-sentiment
+                                                    * text-intent
+                                                    * text-sentiment
 
 
 This curl command makes call to Einstein Intent API and creates dataset. The 
@@ -211,16 +208,17 @@ Table: Create Dataset Response Body [@sp20-516-224-create-dataset-response]
                                                 dataset.
     statusMsg           string                  Status of the dataset creation 
                                                 and data upload. Valid values are:
-
-                                                FAILED: <message>—Data upload has 
-                                                failed.
-                                                SUCCEEDED—Data upload is complete.
-                                                UPLOADING—Data upload is in progress.
+                                                    * FAILED: <message>—Data upload 
+                                                      has failed.
+                                                    * SUCCEEDED: Data upload is 
+                                                      complete.
+                                                    * UPLOADING: Data upload is 
+                                                      in progress.
     totalExamples       int                     Total number of examples in the 
                                                 dataset.    
     type                string                  Type of dataset data. Valid values are:
-                                                    text-intent
-                                                    text-sentiment
+                                                    * text-intent
+                                                    * text-sentiment
     updatedAt           date                    Date and time that the dataset was 
                                                 last updated.                                                                       
 
@@ -279,18 +277,21 @@ Table: Dataset Status Response Body [@sp20-516-224-create-dataset-response]
                                                 dataset.
     statusMsg           string                  Status of the dataset creation 
                                                 and data upload. Valid values are:
-                                                DELETION_PENDING—Dataset is in the 
-                                                process of being deleted.
-                                                FAILED: <message>—Data upload has 
-                                                failed.
-                                                SUCCEEDED—Data upload is complete.
-                                                UPLOADING—Data upload is in progress.
+                                                    * DELETION_PENDING—Dataset is 
+                                                      in the process of being 
+                                                      deleted.
+                                                    * FAILED: <message>—Data upload 
+                                                      has failed.
+                                                    * SUCCEEDED: Data upload is 
+                                                      complete.
+                                                    * UPLOADING: Data upload is 
+                                                      in progress.
     totalExamples       int                     Total number of examples in the 
                                                 dataset.    
     totalLabels         int                     Total number of labels in the dataset.  
     type                string                  Type of dataset data. Valid values are:
-                                                    text-intent
-                                                    text-sentiment
+                                                    * text-intent
+                                                    * text-sentiment
     updatedAt           date                    Date and time that the dataset was 
                                                 last updated.
                                                 
@@ -399,9 +400,8 @@ Table: Training Response Body [@sp20-516-224-create-dataset-response]
     modelType           string                  Type of data from which the model 
                                                 was created. Inferred from the 
                                                 dataset type. Valid values are:
-
-                                                * text-intent
-                                                * text-sentiment
+                                                    * text-intent
+                                                    * text-sentiment
     name                string                  Name of the model.
     object              string                  Object returned; in this case, 
                                                 training.
