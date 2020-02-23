@@ -76,7 +76,7 @@ It is based in three principles.
   at the highest utility at all times.
 * Principle 3: Foster system effectiveness by revealing and designing out negative externalities.  
 
-![Google Circular Economy](images/Google_Circular_Economy.png){#fig:Google-Circular-Economy} 
+![Google Circular Economy [@www-image-google-circular-economy-sp20-516-224]](images/Google_Circular_Economy.png){#fig:Google-Circular-Economy} 
 
 #### Programs Under Circular Economy
 
@@ -115,7 +115,7 @@ A lot of cloud services where impacted as shown in @fig:microsoft_outage.
 Outage happened due to lightning which strikes storage servers and damaged it. It took almost 21 hours 
 to recover from damage and get back to usual business. 
 
-![Microsoft Outage](images/microsoft_outage.png){#fig:microsoft_outage}  
+![Microsoft Outage [@www-microsoft-outage-sp20-516-224]](images/microsoft_outage.png){#fig:microsoft_outage}  
 
 References:
 
