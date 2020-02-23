@@ -2,27 +2,27 @@
 
 ## Einstein AI Overview
 
-Salesforce offers AI services platform which can help organizations build AI 
+Salesforce offers AI services platform called [Einstein Analytics] (https://www.salesforce.com/products/einstein-analytics/overview/) which can help organizations build AI 
 powered apps quickly for employees and customers.  
 
-Products are grouped under four basic AI Domains.
+It provides features which are grouped under four basic AI Domains.
 
-* **Machine Learning**: Products provided under this category are -
+* **Machine Learning**: Features provided under this category are -
     
     * Einstein Discovery
     * Einstein Prediction Builder
     * Einstein Next Best Action
 
-* **Natural Language Processing**: Products provided under this category are -
+* **Natural Language Processing**: Features provided under this category are -
 
     * Einstein Language
     * Einstein Bots    
 
-* **Computer Vision**: Products provided under this category are -
+* **Computer Vision**: Feature provided under this category are -
 
     * Einstein Vision
     
-* **Automatic Speech Recognition**: Products provided under this category are -
+* **Automatic Speech Recognition**: Feature provided under this category are -
 
     * Einstein Voice(open beta)
     
@@ -123,7 +123,7 @@ A sample CSV file is provided by Salesforce at [link](http://einstein.ai/text/ca
 The data in this .csv file takes this format: 
 "intent string",label. Examples from dataset in shown in @fig:csv-sample.
 
-![CSV Sample Data Set Example](images/csv-data-set.jpg){#fig:csv-sample}
+![CSV Sample Data Set Example [@sp20-516-224-json-api-dataset-response]](images/csv-data-set.jpg){#fig:csv-sample}
 
 To create dataset out of input csv file, enter this cURL command, replacing 
 <TOKEN> with the token which is generated.
@@ -173,7 +173,7 @@ Table: Create Dataset Request Body [@sp20-516-224-create-dataset-response]
 This curl command makes call to Einstein Intent API and creates dataset. The 
 response from the API looks something like this JSON shown in @Fig:json-dataset.
 
-![JSON Response](images/json-dataset.png){#fig:json-dataset}
+![JSON Response [@sp20-516-224-json-api-dataset-response]](images/json-dataset.png){#fig:json-dataset}
 
 The API call is asynchronous, so we receive a **dataset ID** back immediately but 
 the available value is false and the statusMsg value is UPLOADING. Use the **dataset 
@@ -367,7 +367,7 @@ Table: Training Request Body [@sp20-516-224-create-dataset-response]
 
 The API response looks similar to shown in @fig:json-training.
 
-![JSON Training API Response](images/json-training.png){#fig:json-training}
+![JSON Training API Response [@sp20-516-224-json-api-training-response]](images/json-training.png){#fig:json-training}
 
 The important fields to note are **status** and **modelId**. The status field 
 value is QUEUED, and that tells us that the training process hasn’t started. 
@@ -501,7 +501,7 @@ Table: Prediction Request Body [@sp20-516-224-create-dataset-response]
 
 The API response looks similar to shown in @fig:json-prediction.
 
-![JSON Prediction API Response](images/json-prediction.png){#fig:json-prediction} 
+![JSON Prediction API Response [@sp20-516-224-json-api-prediction-response]](images/json-prediction.png){#fig:json-prediction} 
 
 The model predicts that the request is a sales opportunity.
 
@@ -525,7 +525,7 @@ There are 3 products available under Einstein Analytics[@sp20-516-224-cost-analy
 
 Comparison of these 3 products and their top features is provided in @fig:cost-compare-analytics.
 
-![Compare Edition and Top Feature](images/cost-compare-analytics.png){#fig:cost-compare-analytics}
+![Compare Edition and Top Feature [@sp20-516-224-cost-analytics]](images/cost-compare-analytics.png){#fig:cost-compare-analytics}
 
 #### Einstein Vision and Language through Heroku
 
