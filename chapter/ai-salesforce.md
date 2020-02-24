@@ -94,7 +94,8 @@ Services provided by Einstein AI
 
 ## How To Use Einstein Language 
 
-These steps explain how to use Einstein Language API.
+These steps explain how to use Einstein Language API. [Einstein Platform Services] (https://metamind.readme.io/)
+allows one to seamlessly integrate custom deep learning models into workflows.
 
 ### Setting Up Environment
 
