@@ -1,5 +1,7 @@
 # Datacenter Divyanshu Mishra SP20-516-224 
 
+:o2: use bibtex
+
 ## E.Datacenter.2.b
 
 Sabey Data Center in Quincy, WA:
