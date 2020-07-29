@@ -246,7 +246,7 @@ $ curl -X GET -H "Authorization: Bearer <TOKEN>" -H "Cache-Control: no-cache"
                 https://api.einstein.ai/v2/language/datasets/<DATASET_ID>
 ```                                       
 
-In this curl command, replace `<TOKEN>` with the token and <DATASET_ID> with the 
+In this curl command, replace `<TOKEN>` with the token and `<DATASET_ID>` with the 
 dataset ID. Then run the command in the command line window.
 
 In the response when **available** is true and **statusMsg** is SUCCEEDED, then
@@ -311,7 +311,7 @@ $ curl -X POST -H "Authorization: Bearer <TOKEN>"
                 https://api.einstein.ai/v2/language/train
 ```        
 
-Replace `<TOKEN>` with generated token ID and <DATASET_ID> with the dataset id
+Replace `<TOKEN>` with generated token ID and `<DATASET_ID>` with the dataset id
 generated in dataset creating step.   
 
 Request Parameters For Training API:
