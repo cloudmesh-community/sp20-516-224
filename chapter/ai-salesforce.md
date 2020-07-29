@@ -127,7 +127,7 @@ The data in this .csv file takes this format:
 ![CSV Sample Data Set Example [@sp20-516-224-json-api-dataset-response]](images/csv-data-set.jpg){#fig:csv-sample}
 
 To create dataset out of input csv file, enter this cURL command, replacing 
-<TOKEN> with the token which is generated.
+`<TOKEN>` with the token which is generated.
 
 * Create dataset from provided sample.(Asynchronous Call)
 
