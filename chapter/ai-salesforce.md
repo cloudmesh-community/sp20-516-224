@@ -4,7 +4,7 @@ Mishra, Divyanshu, sp20-516-224
 
 ## Einstein AI Overview
 
-Salesforce offers AI services platform called [Einstein Analytics] (https://www.salesforce.com/products/einstein-analytics/overview/) which can help organizations build AI 
+Salesforce offers AI services platform called [Einstein Analytics](https://www.salesforce.com/products/einstein-analytics/overview/) which can help organizations build AI 
 powered apps quickly for employees and customers.  
 
 It provides features which are grouped under four basic AI Domains.
