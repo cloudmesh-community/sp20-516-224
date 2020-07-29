@@ -96,20 +96,20 @@ Services provided by Einstein AI
 
 ## How To Use Einstein Language 
 
-These steps explain how to use Einstein Language API. [Einstein Platform Services] (https://metamind.readme.io/)
+These steps explain how to use Einstein Language API. [Einstein Platform Services](https://metamind.readme.io/)
 allows one to seamlessly integrate custom deep learning models into workflows.
 
 ### Setting Up Environment
 
 #### Download Key
 
-An account needs to be created at this [link] (https://api.einstein.ai/signup) 
+An account needs to be created at this [link](https://api.einstein.ai/signup) 
 to access Einstein Platform Services APIs. Once account is created, a private 
 key is required to download. The key file is named einstein_platform.pem
 
 #### Generate a Token  
 
-To generate token, navigate to [link] (https://api.einstein.ai/token) and 
+To generate token, navigate to [link](https://api.einstein.ai/token) and 
 provide account id or mail id along with private key.Browse and navigate 
 to the einstein_platform.pem file downloaded during account signup. Click 
 Get Token, and save the token in a text file or somewhere you can access it.
